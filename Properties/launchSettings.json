@@ -1,0 +1,29 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:16374",
+      "sslPort": 44375
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MyKey": "Value of MyKey from Environment1 Variable"
+      }
+    },
+    "KUDVENKAT.Practice.ASP.Net.Core.App": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MyKey": "Value of MyKey from Environment2 Variable"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\bin\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.deps.json
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\bin\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.runtimeconfig.json
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\bin\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.runtimeconfig.dev.json
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\bin\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.dll
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\bin\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.pdb
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.csprojAssemblyReference.cache
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.csproj.CoreCompileInputs.cache
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.RazorAssemblyInfo.cache
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.RazorAssemblyInfo.cs
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.AssemblyInfoInputs.cache
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.AssemblyInfo.cs
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.RazorTargetAssemblyInfo.cache
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.dll
+F:\Repositories\KUDVENKAT.Practice.ASP.Net.Core.App\obj\Debug\netcoreapp2.2\KUDVENKAT.Practice.ASP.Net.Core.App.pdb
