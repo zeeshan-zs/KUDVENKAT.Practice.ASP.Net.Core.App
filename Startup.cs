@@ -26,33 +26,25 @@ namespace KUDVENKAT.Practice.ASP.Net.Core.App
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,
-                                ILogger<Startup> logger)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Use(async (context, next) =>
-            {
-                logger.LogInformation("MW1: Incoming Request");
-                await next();
-                logger.LogInformation("MW1: Outgoing Response");
-            });
-
-            app.Use(async (context, next) =>
-            {
-                logger.LogInformation("MW2: Incoming Request");
-                await next();
-                logger.LogInformation("MW2: Outgoing Response");
-            });
-
+            FileServerOptions fileServerOptions = new FileServerOptions();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
+            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
+            // app.UseDefaultFiles(defaultFilesOptions);
+            // app.UseStaticFiles();
+            app.UseFileServer(fileServerOptions);
+            
+        
             app.Run(async (context) =>
             {
-                await context.Response
-                .WriteAsync("MW3: Request handled and response produced.");
-                logger.LogInformation("MW3: Request handled and response produced.");
+                await context.Response.WriteAsync("Hello World!");
+                
             });
         }
     }
